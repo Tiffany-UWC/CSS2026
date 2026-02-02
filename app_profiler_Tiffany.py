@@ -18,24 +18,38 @@ st.markdown(
         color: #ffffff; 
     }
     
-    /* Card styling */
+     /* Card/divider styling */
     .card {
-        background-color: rgba(255, 255, 255, 0.95);
-        color: #000;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-        margin-bottom: 20px;
-        text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #000;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    text-align: center;
     }
 
-    /* Remove dividers */
-    hr {
-        display: none;
+    /* Centre Streamlit headings */
+    h1, h2, h3, h4, h5, h6 {
+    text-align: center !important;
     }
+
+    /* Centre ALL text */
+    .stMarkdown * {
+    text-align: center !important;
+    }
+ 
+    /* Centre bullet lists*/
+    .stMarkdown ul,
+    .stMarkdown ol {
+    list-style-position: inside;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    }
+
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True  
 )
 
 # My Basic Info 

@@ -82,8 +82,8 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("🎓 Education")
 st.write("**MSc in Bioinformatics**  \nUniversity of the Western Cape (UWC)  \n2025–current")
-st.write("**BSc (Hons) in Biotechnology**  \nUniversity of the Western Cape (UWC)  \n2024  \n*Dean's merit award; 80.41% aggregate*")
-st.write("**BSc in Biotechnology**  \nUniversity of the Western Cape (UWC)  \n2021–2023  \n*Graduated Cum Laude, Dean's merit award, 75.51% aggregate*")
+st.write("**BSc (Hons) in Biotechnology**  \nUniversity of the Western Cape (UWC)  \n2024  \n*Dean's merit award*")
+st.write("**BSc in Biotechnology**  \nUniversity of the Western Cape (UWC)  \n2021–2023  \n*Graduated Cum Laude, Dean's merit award*")
 st.markdown('</div>', unsafe_allow_html=True)
 
 

@@ -39,14 +39,6 @@ st.markdown(
     text-align: center !important;
     }
  
-    /* Centre bullet lists*/
-    .stMarkdown ul,
-    .stMarkdown ol {
-    list-style-position: inside;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
-    }
-
     </style>
     """,
     unsafe_allow_html=True  
@@ -99,13 +91,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 # Technical Skills
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("💻 Technical Skills")
-st.write("""
-- Data quality control (QC) and analysis 
-- Genomic data processing (Plink, GenomeStudio, Imputation)
-- Statistical analysis and modelling (R)
-- Data workflows and containerization
-- MySQL database development
-""")
+st.write("Data quality control (QC) and analysis  \nGenomic data processing (Plink, GenomeStudio, Imputation)  \nStatistical analysis and modelling (R)  \nData workflows and containerization  \nMySQL database development")
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Contact Info

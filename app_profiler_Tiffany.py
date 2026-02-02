@@ -5,7 +5,7 @@ import numpy as np
 
 # Page Config/customizations
 st.set_page_config(
-    page_title=" 🔬Researcher Profile",
+    page_title=" Researcher Profile",
     layout="wide"  
 )
 
@@ -31,12 +31,12 @@ st.markdown(
 
     /* Centre Streamlit headings */
     h1, h2, h3, h4, h5, h6 {
-    text-align: center !important;
+    text-align: center;
     }
 
     /* Centre ALL text */
     .stMarkdown * {
-    text-align: center !important;
+    text-align: center;
     }
  
     </style>
@@ -57,8 +57,7 @@ with col1:
     )
 
 with col2:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.header("🔬 Researcher Overview")
+    st.header("🔬 Researcher Profile")
     st.write(f"**Name:** {name}")
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")

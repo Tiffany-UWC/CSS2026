@@ -18,15 +18,15 @@ st.markdown(
         color: #ffffff; 
     }
     
-     /* Card/divider styling */
+     /* Card styling */
     .card {
-    background-color: rgba(255, 255, 255, 0.95);
-    color: #000;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
-    margin-bottom: 20px;
-    text-align: center;
+        background-color: rgba(255, 255, 255, 0.95);
+        color: #000;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        margin-bottom: 20px;
+        text-align: center;
     }
 
     /* Centre Streamlit headings */
@@ -100,7 +100,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.header("💻 Technical Skills")
 st.write("""
-- Data quality control (QC) and analysis
+- Data quality control (QC) and analysis 
 - Genomic data processing (Plink, GenomeStudio, Imputation)
 - Statistical analysis and modelling (R)
 - Data workflows and containerization
